@@ -23,6 +23,8 @@ test$hour = cos(2*hour(ymd_hms(test$datetime))*pi/24)
 train$casual <- NULL
 train$registered <- NULL
 
+## public leadership board score is 0.64107
+
 ## no. of columns in train & test
 c.train <- ncol(train)
 c.test <- ncol(test)
